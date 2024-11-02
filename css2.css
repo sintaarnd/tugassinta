@@ -1,0 +1,83 @@
+body{
+	background-image: url(img/pink1.jpg);
+}
+#tampilan{
+	background-color: rgba(80, 189, 85, 0.5);
+	width: 1000px;
+	height: 3000px;
+	margin: auto;
+	padding: 5px;
+}
+#header{
+	background-color: #FFF0F5;
+	height: 200px;
+	width: 1000px;
+	overflow: hidden;
+}
+#teks{
+	background-color: rgba(194, 214, 195, 0.8);
+	height: 35px;
+	width: 997px;
+	overflow: hidden;
+	border-style: inset;
+	border-color: hotpink;
+}
+#menu{
+	background: #E6E6FA;
+	height: 30px;
+	width: 1000px;
+}
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+#menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+#menu ul li a {
+    color: deeppink;
+    text-decoration: none;
+    font-weight: bold;
+}
+#menu ul li a:hover {
+    color: #ff1493;
+}
+#kiri{
+	background: #F0F8FF;
+	height: auto;
+	width: 996px;
+	float: left;
+	border-style: double;
+	border-color: #7FFFD4;
+}
+.box{
+	width: 900px;
+	height: auto;
+	padding: 10px;
+	margin: 0 auto;
+	background-color: pink;
+	margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    outline: 2px solid #FF69B4;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #FF69B4;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #ffb6c1;
+    color: black;
+}
